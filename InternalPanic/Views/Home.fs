@@ -6,7 +6,7 @@ let homeView =
     [ section [] [
           hgroup [] [
               h2 [] [ str "Sumpin" ]
-              h3 [] [ str "Sumpin Else" ]
+              h3 [] [ str "This is another line" ]
           ]
           p [] [
               str
