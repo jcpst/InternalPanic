@@ -8,12 +8,6 @@ let homeView =
               h2 [] [ str "Sumpin" ]
               h3 [] [ str "Sumpin Else" ]
           ]
-          div [ attr "hx-post" "/swappy"
-                attr "hx-swap" "innterHTML"
-                _id "swapy"
-                _class "button trans" ] [
-              str "You gonna click me?"
-          ]
           p [] [
               str
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.

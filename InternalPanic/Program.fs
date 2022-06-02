@@ -17,7 +17,8 @@ let configureServices (services: IServiceCollection) =
     services
         .AddLiveReload()
         .AddResponseCaching()
-        .AddGiraffe() |> ignore
+        .AddGiraffe()
+    |> ignore
 
 let configureLogging (loggerBuilder: ILoggingBuilder) =
     loggerBuilder
